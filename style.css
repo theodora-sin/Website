@@ -1,15 +1,25 @@
 body {
- background-color: lightpurple; 
- font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- text-align: center;
- color: black;
- display: flex;
- justify-content: center;
+    background-color: lavender;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
 }
 
 h1 {
-  color: navy;
+    color: navy;
 }
-main{
- font-size:20
+
+.avatar {
+    width: 400px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    font-size: 22px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
